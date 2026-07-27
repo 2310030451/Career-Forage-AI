@@ -14,7 +14,129 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      documents: {
+        Row: {
+          ats_score: number | null
+          content: Json
+          created_at: string
+          id: string
+          kind: string
+          markdown: string | null
+          style: string | null
+          target_role: string | null
+          title: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          ats_score?: number | null
+          content?: Json
+          created_at?: string
+          id?: string
+          kind: string
+          markdown?: string | null
+          style?: string | null
+          target_role?: string | null
+          title: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          ats_score?: number | null
+          content?: Json
+          created_at?: string
+          id?: string
+          kind?: string
+          markdown?: string | null
+          style?: string | null
+          target_role?: string | null
+          title?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      profiles: {
+        Row: {
+          achievements: Json
+          certifications: Json
+          codechef_url: string | null
+          codeforces_url: string | null
+          created_at: string
+          education: Json
+          email: string | null
+          experience: Json
+          full_name: string | null
+          gfg_url: string | null
+          github_url: string | null
+          hackerrank_url: string | null
+          headline: string | null
+          id: string
+          languages: Json
+          leetcode_url: string | null
+          linkedin_url: string | null
+          location: string | null
+          phone: string | null
+          portfolio_url: string | null
+          projects: Json
+          skills: Json
+          summary: string | null
+          updated_at: string
+        }
+        Insert: {
+          achievements?: Json
+          certifications?: Json
+          codechef_url?: string | null
+          codeforces_url?: string | null
+          created_at?: string
+          education?: Json
+          email?: string | null
+          experience?: Json
+          full_name?: string | null
+          gfg_url?: string | null
+          github_url?: string | null
+          hackerrank_url?: string | null
+          headline?: string | null
+          id: string
+          languages?: Json
+          leetcode_url?: string | null
+          linkedin_url?: string | null
+          location?: string | null
+          phone?: string | null
+          portfolio_url?: string | null
+          projects?: Json
+          skills?: Json
+          summary?: string | null
+          updated_at?: string
+        }
+        Update: {
+          achievements?: Json
+          certifications?: Json
+          codechef_url?: string | null
+          codeforces_url?: string | null
+          created_at?: string
+          education?: Json
+          email?: string | null
+          experience?: Json
+          full_name?: string | null
+          gfg_url?: string | null
+          github_url?: string | null
+          hackerrank_url?: string | null
+          headline?: string | null
+          id?: string
+          languages?: Json
+          leetcode_url?: string | null
+          linkedin_url?: string | null
+          location?: string | null
+          phone?: string | null
+          portfolio_url?: string | null
+          projects?: Json
+          skills?: Json
+          summary?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
