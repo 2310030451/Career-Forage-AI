@@ -1,29 +1,180 @@
-# Welcome to your Lovable project
+# 🚀 Career Forge AI
 
-This project was built with [Lovable](https://lovable.dev).
+> **One Profile. Infinite Opportunities.**
 
-## Build with Lovable
+Career Forge AI is an AI-powered career platform that helps students and professionals create ATS-optimized resumes, generate professional portfolios, analyze job descriptions, and showcase their skills in one place.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## 🌐 Live Demo
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+**🔗 Live Application:** https://preview--career-forge-ai-39.lovable.app/
 
-## Development
+---
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+# ✨ Features
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## 📄 AI Resume Builder
+- ATS-friendly resume generation
+- Multiple professional resume templates
+- Resume customization
+- Resume preview
+- Resume version management
+
+## 📊 ATS Resume Analysis
+- ATS score estimation
+- Keyword optimization
+- Resume improvement suggestions
+- Skills matching
+
+## 👨‍💻 Professional Profile
+- Personal Information
+- Education
+- Skills
+- Projects
+- Certifications
+- Achievements
+- Work Experience
+- Coding Profiles
+
+## 🔗 Coding Profiles
+- GitHub
+- LeetCode
+- Codeforces
+- CodeChef
+- HackerRank
+- GeeksforGeeks
+
+## 📁 Project Management
+- Unlimited Projects
+- GitHub Repository Links
+- Live Demo Links
+- Tech Stack
+- Project Descriptions
+
+## 🏆 Certifications & Achievements
+- Certification Management
+- Hackathons
+- Awards
+- Research
+- Publications
+
+## 🔐 Authentication
+- Google Login
+- Email Authentication
+- Secure User Sessions
+
+## 🎨 Modern UI
+- Responsive Design
+- Dark Mode
+- Clean Dashboard
+- Mobile Friendly
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- TanStack Start
+- Tailwind CSS
+
+### Backend
+- Supabase
+- Lovable Cloud Functions
+
+### Authentication
+- Supabase Auth
+- Google OAuth
+
+### Database
+- Supabase PostgreSQL
+
+---
+
+# 📸 Preview
+
+Visit the live application:
+
+### 🌐 https://preview--career-forge-ai-39.lovable.app/
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/2310030451/Career-Forage-AI.git
+```
+
+Navigate to the project
+
+```bash
+cd Career-Forage-AI
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
 npm run dev
 ```
 
-## Built with
+---
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+# 📂 Project Structure
+
+```
+src/
+components/
+public/
+supabase/
+```
+
+---
+
+# 🎯 Roadmap
+
+- [x] User Authentication
+- [x] Profile Management
+- [x] Resume Generator
+- [x] ATS Resume Analysis
+- [ ] AI Portfolio Generator
+- [ ] GitHub Project Analyzer
+- [ ] Job Description Analyzer
+- [ ] Cover Letter Generator
+- [ ] Interview Preparation
+- [ ] Learning Roadmap
+- [ ] Portfolio Templates
+- [ ] Resume PDF & DOCX Export
+
+---
+
+# 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+If you'd like to contribute, feel free to fork the repository and submit a pull request.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👩‍💻 Developer
+
+**J N Kavya Sree**
+
+GitHub: https://github.com/2310030451
+
+---
+
+⭐ If you like this project, don't forget to star the repository!
