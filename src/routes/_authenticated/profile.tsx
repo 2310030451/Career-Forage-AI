@@ -120,7 +120,7 @@ function ProfilePage() {
         </CardContent>
       </Card>
 
-      <ListCard
+      <ListCard<EducationItem>
         title="Education"
         items={p.education} onAdd={()=>addItem("education", { school:"", degree:"", year:"", grade:"" })}
         onRemove={i=>removeItem("education", i)}
@@ -134,7 +134,7 @@ function ProfilePage() {
         )}
       />
 
-      <ListCard
+      <ListCard<ExperienceItem>
         title="Experience & Internships"
         items={p.experience} onAdd={()=>addItem("experience", { company:"", role:"", period:"", description:"" })}
         onRemove={i=>removeItem("experience", i)}
@@ -148,7 +148,7 @@ function ProfilePage() {
         )}
       />
 
-      <ListCard
+      <ListCard<ProjectItem>
         title="Projects"
         items={p.projects} onAdd={()=>addItem("projects", { name:"", description:"", tech:"", link:"" })}
         onRemove={i=>removeItem("projects", i)}
@@ -162,7 +162,7 @@ function ProfilePage() {
         )}
       />
 
-      <ListCard
+      <ListCard<CertItem>
         title="Certifications"
         items={p.certifications} onAdd={()=>addItem("certifications", { name:"", issuer:"", year:"" })}
         onRemove={i=>removeItem("certifications", i)}
